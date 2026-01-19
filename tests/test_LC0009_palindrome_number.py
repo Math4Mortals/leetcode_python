@@ -30,5 +30,5 @@ SOLUTIONS = [
 
 @pytest.mark.parametrize("SolutionCls", SOLUTIONS)
 def test_palindrome_number(SolutionCls, x, expected):
-    s = SolutionCls()
-    assert s.isPalindrome(x) is expected
+    res = SolutionCls()
+    assert res.isPalindrome(x) is expected

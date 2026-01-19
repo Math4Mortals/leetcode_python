@@ -28,7 +28,7 @@ class SolutionFullReverse:
             num //= 10
         return x == rev_x
 
-class SolutionMirrorIndexes:
+class SolutionMirrorIndexes: 
     def isPalindrome(self, x: int) -> bool:
         str_x = str(x)
         len_str_x = len(str_x)
@@ -36,4 +36,3 @@ class SolutionMirrorIndexes:
             if str_x[i] != str_x[len_str_x - i - 1]:
                 return False
         return True
-
