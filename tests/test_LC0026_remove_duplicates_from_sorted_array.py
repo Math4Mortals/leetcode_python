@@ -22,6 +22,5 @@ SOLUTIONS = [
 def test_remove_duplicates(SolutionCls, nums, expected_len, expected_arr):
     nums = nums.copy()
     res = SolutionCls().removeDuplicates(nums)
-    print(res, nums, expected_len, expected_arr)
     assert res == expected_len
     assert nums[:res] == expected_arr
