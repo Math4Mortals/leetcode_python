@@ -19,7 +19,7 @@ SOLUTIONS = [
 ])
 
 @pytest.mark.parametrize("SolutionCls", SOLUTIONS)
-def  test_merge_two_sorted_lists(SolutionCls, a, b, expected):
+def test_merge_two_sorted_lists(SolutionCls, a, b, expected):
     list1 = build_linked_list(a)
     list2 = build_linked_list(b)
 
